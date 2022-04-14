@@ -43,7 +43,7 @@ def count_negatives_in_matrix(matrix: List[List[int]]) -> int:
     # TODO: Refer to the following web site for a further description of this function:
     # https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/
     # TODO: Please remember that the aforementioned web site may not be configured
-    # at first to display Python source code. You solution must be in Python!
+    # at first to display Python source code. Your solution must be in Python!
 
 
 @cli.command()
