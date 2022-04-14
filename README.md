@@ -1,7 +1,7 @@
 # Matrix Processing
 
-## Assigned: Friday, September 30, 2021
-## Due: Monday, October 4, 2021
+## Assigned: Thursday, April 14, 2022
+## Due: Thursday, April 21, 2022
 
 After cloning this repository to your computer, please take the following steps:
 
@@ -14,4 +14,6 @@ After cloning this repository to your computer, please take the following steps:
   - Please note that the program will not work unless you add the required source code
   - Please refer to the `writing/reflection.md` file for all of the ways to run the program
 - Confirm that the program is producing the expected output
+- Regularly commit to your GitHub repository as you add features to your program
+- When you commit to your GitHub repository, please use descriptive commit messages
 - Use a `docker run` command for your operating system to run GatorGrader
