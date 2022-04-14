@@ -23,6 +23,7 @@ def confirm_valid_file(file: Path) -> bool:
 
 def construct_matrix(matrix_contents: str) -> List[List[int]]:
     """Construct a matrix of int values out of a string representation of the matrix."""
+    # TODO: Make sure that you understand how this source code works!
     matrix = [
         [int(num) for num in line.split(",")] for line in matrix_contents.splitlines()
     ]
@@ -31,6 +32,7 @@ def construct_matrix(matrix_contents: str) -> List[List[int]]:
 
 def print_matrix(matrix: List[List[int]]) -> None:
     """Display a matrix in the console in a formatted fashion."""
+    # TODO: Make sure that you understand how the tabulate package works
     print(tabulate(matrix))
 
 
