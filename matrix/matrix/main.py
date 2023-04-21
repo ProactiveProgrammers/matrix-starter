@@ -1,14 +1,6 @@
 """Count the number of negative numbers in a sorted matrix."""
 
-from pathlib import Path
-
-from typing import List
-
-import typer
-
-from rich.console import Console
-
-from tabulate import tabulate
+# TODO: Add all of the required imports for this project
 
 # create a Typer object to support the command-line interface
 cli = typer.Typer()
