@@ -1,6 +1,6 @@
 ![Proactive Programmers](.github/images/Square-Proactive-Programmers-Logo.svg)
 
-# Containment Checking
+# Matrix Processing
 
 [![build](../../actions/workflows/build.yml/badge.svg)](../../actions/)
 ![Platforms: Linux, MacOS, Windows](https://img.shields.io/badge/Platform-Linux%20%7C%20MacOS%20%7C%20Windows-blue.svg)
@@ -14,18 +14,16 @@
 If you are a student completing this project as part of a class at Allegheny
 College, please check the [Proactive Programmers Discord
 server](https://discord.gg/kjah8MFYbR) for the assignment's due date. You can
-learn more about this assignment by reading the [Sorting
-Algorithms](https://proactiveprogrammers.com/data-abstraction/engineering-efforts/sorting-algorithms/)
+learn more about this assignment by reading the [Matrix
+Processing](https://proactiveprogrammers.com/data-abstraction/programming-projects/matrix-processing/)
 project description on the [Proactive Programmers web
 site](https://proactiveprogrammers.com). Please note that the content provided
 in the README file for this GitHub repository is an overview of the project and
 thus does not include the details concerning all the steps needed to
-successfully complete the every project deliverable. Finally, it is important to
-point out that your repository for this project was created from the GitHub
-repository template called
-[containment-checking-starter](https://github.com/ProactiveProgrammers/containment-checking-starter).
-You can check this repository for any updates to this project's documentation or
-source code.
+successfully complete the every project deliverable. Finally, it is important
+to point out that your repository for this project was created from the GitHub
+repository template called [matrix-starter](matrix-starter). You can check this
+repository for any updates to this project's documentation or source code.
 
 ## Seeking Assistance
 
@@ -61,11 +59,10 @@ steps:
 - Use the `cd` command to change into the directory for this repository.
 - Specifically, you can change into the program directory by typing `cd square`.
 - Install the dependencies for the project by typing `poetry install`.
-- Run the program in the following fashion:
-  - `poetry run containmentcheck --size 5000 --maximum 50000000 --approach list`
-  - Note that this is not the only configuration you should try for your experiment
-  - Note that the program will not work unless you add the required source code
-  - Refer to the `writing/reflection.md` for details about designing your experiment
+- Run the program to perform matrix processing by typing the following command:
+  - `poetry run matrix --matrix-dir input --matrix-file matrix.txt`
+  - Please note that the program will not work unless you add the required source code
+  - Please refer to the `writing/reflection.md` file for all of the ways to run the program
 - Please note that the program will not work unless you add the required
   source code at the designated `TODO` markers.
 - Confirm that the program is producing the expected output by looking in the
@@ -90,4 +87,4 @@ steps:
   labels from every line of the `writing/reflection.md` file. This means that
   you should not simply delete the `TODO` marker but instead delete the entire
   prompt so that your reflection is a document that contains polished technical
-  writing that is suitable for publication on your professional web site.
+  writing that is suitable for publication on your professional web site.!
